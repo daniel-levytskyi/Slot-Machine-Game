@@ -13,7 +13,7 @@ def close(event=None):
     root.destroy()
 root.bind("<Escape>", close)
 
-mainText = tk.Label(root, text="", font=("Impact", 48, "bold"))
+mainText = tk.Label(root, text="💥️ Slot Machine Game 💥️", font=("Impact", 48, "bold"))
 mainText.pack(pady=20)
 
 #MAKING THE BLACK BARS
