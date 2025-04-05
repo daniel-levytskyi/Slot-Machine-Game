@@ -35,7 +35,7 @@ def spinCommand(event=None):
             root.update_idletasks()
             time.sleep(0.01)
         #SLOWING DOWN THE ANIMATION
-        for delay in [0.01, 0.02, 0.03, 0.04, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5]:
+        for delay in [0.01, 0.02, 0.03, 0.04, 0.05, 0.1, 0.2, 0.3]:
             iconList[index].config(text=random.choice(symbols))
             root.update_idletasks()
             time.sleep(delay)
